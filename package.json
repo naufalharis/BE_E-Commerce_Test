@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend E-Commerce dengan Express, PostgreSQL, dan Midtrans",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "midtrans-client": "^1.4.3",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4",
+    "sequelize-cli": "^6.6.5",
+    "supertest": "^7.2.2"
+  }
+}
